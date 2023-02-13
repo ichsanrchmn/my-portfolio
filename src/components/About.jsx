@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const About = () => {
   return (
@@ -15,6 +15,7 @@ const About = () => {
             <p>Hi, I'm Ichsan, nice to meet you. Please take a look around.</p>
           </div>
           <div>
+            <img src="../assets/profile.jpg" alt="" />
             <p>
               I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise
               corporations. Branding is way much easier with my specializations.
