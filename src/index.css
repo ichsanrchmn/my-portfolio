@@ -11,6 +11,11 @@
   li {
     @apply px-4;
     @apply cursor-pointer;
+    @apply duration-300;
+  }
+  li:hover {
+    @apply text-white;
+    @apply duration-300;
   }
 }
 
