@@ -18,31 +18,31 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="html icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="css icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="html icon" />
+            <img className="w-20 mx-auto" src={JavaScript} alt="javascript icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Laravel} alt="html icon" />
+            <img className="w-20 mx-auto" src={Laravel} alt="laravel icon" />
             <p className="my-4">LARAVEL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="html icon" />
+            <img className="w-20 mx-auto" src={ReactImg} alt="react icon" />
             <p className="my-4">REACTJS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Bootstrap} alt="html icon" />
+            <img className="w-20 mx-auto" src={Bootstrap} alt="bootstrap icon" />
             <p className="my-4">BOOTSTRAP CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="html icon" />
+            <img className="w-20 mx-auto" src={Tailwind} alt="tailwind icon" />
             <p className="my-4">TAILWINDCSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Github} alt="html icon" />
+            <img className="w-20 mx-auto" src={Github} alt="github icon" />
             <p className="my-4">GITHUB</p>
           </div>
         </div>

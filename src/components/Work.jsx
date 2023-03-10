@@ -1,5 +1,5 @@
 import React from "react";
-import { realEstate, WorkImg } from "../assets";
+import { porto1, porto2, porto3, porto4, porto5 } from "../assets";
 
 const Work = () => {
   return (
@@ -11,97 +11,72 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                </a>
-              </div>
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+            <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto1} alt="Tradeindo Website" />
             </div>
-          </div>
+              <span className="text-xl font-bold text-white tracking-wider">Tradeindo Website (Laravel, Blade)</span><br />
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
+                </a>
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
+                </a>
+            </div>
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                </a>
-              </div>
-            </div>
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+          <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto2} alt="PAMM Fibox Page" />
           </div>
+              <span className="text-xl font-bold text-white tracking-wider">PAMM Fibox Page<br/>(React+Vite, Tailwind)</span><br />
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
+                </a>
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
+                </a>
+            </div>
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                </a>
-              </div>
-            </div>
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+          <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto3} alt="PAMM Fibox Page 2" />
           </div>
+              <span className="text-xl font-bold text-white tracking-wider">PAMM Fibox Second Page (React, Tailwind)</span><br />
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
+                </a>
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
+                </a>
+            </div>
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                </a>
-              </div>
-            </div>
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+          <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto4} alt="Orion System Page" />
           </div>
+              <span className="text-xl font-bold text-white tracking-wider">Orion System Page<br />(HTML Native, Bootstrap)</span><br />
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
+                </a>
+                <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
+                </a>
+            </div>
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                </a>
-              </div>
-            </div>
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+          <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto5} alt="TradeVibes Website" />
           </div>
-          {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">ReactJS Application</span>
-              <div className="pt-8 text-center">
+              <span className="text-xl font-bold text-white tracking-wider">TraderVibes Website (Laravel, Blade, Bootstrap)</span><br />
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
                 </a>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
