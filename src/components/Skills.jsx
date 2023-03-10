@@ -1,13 +1,6 @@
 import React from "react";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import Laravel from "../assets/laravel.png";
-import ReactImg from "../assets/react.png";
-import Bootstrap from "../assets/bootstrap.png";
-import Github from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
+import { Bootstrap, CSS, Github, HTML, JavaScript, Laravel, ReactImg, Tailwind } from "../assets";
 
 const Skills = () => {
   return (
