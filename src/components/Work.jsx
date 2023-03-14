@@ -17,7 +17,7 @@ const Work = () => {
             <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
             <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto1} alt="Tradeindo Website" />
             </div>
-              <span className="text-xl font-bold text-white tracking-wider">Tradeindo Website (Laravel, Blade)</span><br />
+              <span className="text-xl font-bold text-white tracking-wider">Tradeindo Website (Laravel, SCSS, Bootstrap)</span><br />
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
@@ -56,7 +56,7 @@ const Work = () => {
           <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
             <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto4} alt="Orion System Page" />
           </div>
-              <span className="text-xl font-bold text-white tracking-wider">Orion System Page<br />(HTML Native, Bootstrap)</span><br />
+              <span className="text-xl font-bold text-white tracking-wider">Orion System Page<br />(SCSS, Bootstrap)</span><br />
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
@@ -69,7 +69,7 @@ const Work = () => {
           <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
             <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto5} alt="TradeVibes Website" />
           </div>
-              <span className="text-xl font-bold text-white tracking-wider">TraderVibes Website (Laravel, Blade, Bootstrap)</span><br />
+              <span className="text-xl font-bold text-white tracking-wider">TraderVibes Website (Laravel, SCSS, Bootstrap)</span><br />
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
