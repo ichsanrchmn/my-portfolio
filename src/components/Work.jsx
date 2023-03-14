@@ -1,5 +1,5 @@
 import React from "react";
-import { porto1, porto2, porto3, porto4, porto5 } from "../assets";
+import { porto1, porto2, porto3, porto4, porto5, porto6 } from "../assets";
 
 const Work = () => {
   return (
@@ -21,7 +21,7 @@ const Work = () => {
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ichsanrchmn/web-tradeindo" target="_blank" rel="noopener noreferrer">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
                 </a>
             </div>
@@ -34,7 +34,7 @@ const Work = () => {
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ichsanrchmn/pamm-fibox-lp" target="_blank" rel="noopener noreferrer">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
                 </a>
             </div>
@@ -60,7 +60,7 @@ const Work = () => {
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ichsanrchmn/oriongold-lp" target="_blank" rel="noopener noreferrer">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
                 </a>
             </div>
@@ -73,7 +73,20 @@ const Work = () => {
                 <a href="/">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
                 </a>
+                <a href="https://github.com/ichsanrchmn/web-tradervibes" target="_blank" rel="noopener noreferrer">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
+                </a>
+            </div>
+          {/* Grid Item */}
+          <div className="shadow-md shadow-[#040c16] relative text-center group hover:scale-110 duration-500 rounded-md">
+          <div className="grayscale filter brightness-50 group-hover:grayscale-0 group-hover:filter-none duration-500">
+            <img className="w-full mx-auto mb-3 rounded-md duration-500" src={porto6} alt="TradeVibes Website" />
+          </div>
+              <span className="text-xl font-bold text-white tracking-wider">My Portfolio Page (ReactJS, Tailwind)</span><br />
                 <a href="/">
+                  <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Demo</button>
+                </a>
+                <a href="https://github.com/ichsanrchmn/my-portfolio" target="_blank" rel="noopener noreferrer">
                   <button className="my-6 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#d8b963] hover:text-white duration-300">Code</button>
                 </a>
             </div>
